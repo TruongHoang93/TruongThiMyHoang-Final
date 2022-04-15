@@ -1,0 +1,116 @@
+#header{
+    padding: 8px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #3A537C;
+}
+.nav ul{
+    list-style: none;
+}
+.nav li{
+    margin: 0 12px;
+}
+.nav li:first-child{
+    margin-left: 0px;
+}
+.nav li:last-child{
+    margin-right: 0px;
+}
+.nav li a{
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+.nav li:hover a{
+    color: #3A537C;
+    background-color: #c0d2e9;
+}
+.social a{
+    margin: 0 12px;
+}
+/* header */
+#slider-1{
+    height: 100vh;
+    margin-top: 70px;
+    background: url('/IMG/Mononoke-Hero-Desktop.jpg') top center / cover no-repeat;
+    margin: 0 auto;
+}
+#slider-1 .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+#slider-2{
+    padding: 100px 0;
+}
+#slider-3{
+    background-color: #3A537C;
+    padding: 50px 0;
+}
+#slider-3:hover{
+    color: #3A537C;
+    background-color: #0c2546;
+    text-decoration: underline;
+}
+#slider-4{
+    padding: 50px 0;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+#slider-5{
+    padding: 30px 0;
+}
+#slider-6{
+    padding: 30px 0;
+}
+#slider-7{
+    padding: 30px 0;
+}
+#slider-8{
+    background-color: #3A537C;
+}
+/* footer */
+#footer{
+    padding: 20px 0;
+    background-color: #3A537C;
+}
+.about-footer{
+    width: 50%;
+    display:inline-block ;
+    height: 130px;
+}
+.list-menu{
+    width: 15%;
+    display:inline-block ;
+}
+.list-menu ul{
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.list-menu li{
+    margin-top: 10px;
+}
+.list-menu li a{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.copy-right{
+    padding: 10px auto;
+    text-align: center;
+    color: #f1f1f1;
+}
